@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HerzDoodle – Goldendoodles mit Herz</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ffe5ec;
+      padding: 40px 20px 20px;
+      text-align: center;
+    }
+    header img {
+      max-width: 180px;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #c94f7c;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #8c3d64;
+      margin-top: 5px;
+    }
+    main {
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    .welpen-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .welpe {
+      background: #fff;
+      border: 1px solid #f4c2c2;
+      border-radius: 15px;
+      padding: 15px;
+      width: calc(33.333% - 20px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    .welpe img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #ffe5ec;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      color: #c94f7c;
+    }
+    @media(max-width: 768px) {
+      .welpe {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="doodle_logo.png" alt="HerzDoodle Logo">
+    <h1>HerzDoodle</h1>
+    <p>Goldendoodles mit Herz</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Über unsere Welpen</h2>
+      <p>Unsere Goldendoodles wachsen in einem familiären Umfeld auf, sind bestens sozialisiert und lernen bereits die ersten Grundlagen der Erziehung. Die Welpen sind geimpft, gechippt und mehrfach entwurmt.</p>
+    </section>
+
+    <section>
+      <h2>Aktuelle Würfe</h2>
+      <div class="welpen-container">
+        <div class="welpe">
+          <img src="doodle_1.jpg" alt="Goldendoodle Welpe">
+          <h3>Rüde "Charlie"</h3>
+          <p>Verspielt, zutraulich & kinderlieb. Bereit für den Umzug ab 18. Juli.</p>
+        </div>
+        <div class="welpe">
+          <img src="doodle_2.jpg" alt="Goldendoodle Welpe">
+          <h3>Hündin "Luna"</h3>
+          <p>Neugierig, clever & verträglich mit Katzen. Abgabe ab sofort möglich.</p>
+        </div>
+        <div class="welpe">
+          <img src="doodle_3.jpg" alt="Goldendoodle Welpe">
+          <h3>Rüde "Balu"</h3>
+          <p>Ein kleiner Schmusebär, ideal für Familien mit Kindern.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Kontakt & Besichtigung</h2>
+      <p>Melden Sie sich gerne für ein persönliches Kennenlernen oder weitere Informationen:</p>
+      <ul>
+        <li>Telefon: 0123 456789</li>
+        <li>E-Mail: kontakt@herzdoodle.de</li>
+        <li>Standort: Nähe Dresden</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 HerzDoodle – Goldendoodles mit Herz</p>
+  </footer>
+</body>
+</html>
